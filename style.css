@@ -68,7 +68,8 @@ body {
 
 .features h3,
 .our-designer h3,
-.similar-product h3 {
+.similar-product h3,
+.your-cart h3 {
     color: #1926a4;
     font-family: 'Lora', serif;
     font-weight: 600;
@@ -76,7 +77,8 @@ body {
 
 .features p,
 .our-designer p,
-.similar-product p {
+.similar-product p,
+.your-cart p {
     color: #a2a2a2;
     font-size: 1.125rem;
 }
@@ -270,4 +272,66 @@ hr + h4.lora-bold {
 
 .similar-product {
     margin-top: 23vh;
+}
+
+/* akhir halaman similar product */
+/* halaman cart */
+.your-cart {
+    margin-top: 9vh;
+}
+/* akhir halaman cart */
+nav[class='purchase'] {
+    margin-top: 2rem;
+}
+
+.checkout h6 {
+    color: #687980;
+    font-weight: 600;
+}
+
+.checkout p {
+    color: #a2a2a2;
+}
+
+.checkout .checkout-unit-payment {
+    margin-bottom: 15vh;
+}
+
+.checkout-detail {
+    background-color: #f5f5f5;
+    color: #171717;
+}
+
+.checkout-detail h5 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.checkout-detail h6 {
+    font-size: 1.125rem;
+    color: #171717;
+}
+
+.button-checkout a {
+    color: #fff;
+}
+
+.button-checkout .checkout-btn {
+    background-color: #e44002;
+}
+
+.button-checkout .checkout-btn:hover {
+    color: #fff;
+    background-color: rgba(228, 64, 2, 0.85);
+}
+
+.modal-content h3 {
+    color: #1926a4;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.modal-content a {
+    width: 165px;
 }
